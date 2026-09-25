@@ -1,3 +1,4 @@
+#This script is to create the frequency-based baseline.
 from collections import Counter, defaultdict
 from seqeval.metrics import precision_score, recall_score, f1_score, accuracy_score
 from data_set_prep import load_conllu_file
