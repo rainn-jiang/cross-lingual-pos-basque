@@ -36,8 +36,8 @@ def predict_with_frequency_baseline(test_set, word_to_most_common_tag, fallback_
         predicted_tags_per_sentence.append(predicted_tags)
         gold_tags_per_sentence.append(tags)
 
-    return predicted_tags_per_sentence, gold_tags_per_sentence   # ← 注意这里,逗号分隔,返回两个独立列表
-
+    return predicted_tags_per_sentence, gold_tags_per_sentence
+    
 if __name__ == "__main__":
     english_train_set = load_conllu_file("en_ewt-ud-train.conllu")
     basque_test_set = load_conllu_file("eu_bdt-ud-test.conllu")
