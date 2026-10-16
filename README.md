@@ -100,6 +100,8 @@ The frequency-based baseline follows a simplified version of this pipeline, repl
 
 System B was selected to annotate the held-out Basque dev split. As a reliability check, its predictions on the dev split were evaluated against the gold annotations, yielding an F1 of 0.937, nearly identical to its test-set performance (F1 = 0.938).
 
+Note: P/R/F1 were computed with seqeval, which assumes BIO chunk labels; token-level accuracy is the reliable metric here.
+
 ## Newly Annotated Corpus
 
 The output file `eu_bdt-ud-dev.system_b_annotated.conllu` contains the `UD_Basque-BDT` development set with UPOS tags predicted by System B, in the original CoNLL-U format with all other annotation layers (e.g., dependency relations) preserved unchanged.
