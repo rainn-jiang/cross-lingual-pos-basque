@@ -14,7 +14,7 @@ Three systems are compared under matched conditions:
 
 The better-performing system (System B) is then used to annotate the held-out Basque development set, producing a newly annotated corpus.
 
-## Paper for this repository
+## Paper for This Repository
 [Under Review] -- Rainn Jiang. (2026). Zero-shot VS. In-language Training: Cross-lingual Part of Speech Tagging on Basque. _SURJ: The Stanford Undergraduate Research Journal_.
 
 ## Repository Structure
